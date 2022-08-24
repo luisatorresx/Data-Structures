@@ -1,12 +1,6 @@
 UNIVERSIDAD DE ORIENTE NUCLEO ANZOATEGUI
 ESTRUCTURA DE DATOS
 
-PROFESORA: GABRIELA VERACIERTA
-
-ALUMNOS:
-NOMBRE: LUISA TORRES CI: 28.676.981
-NOMBRE: DANIEL GUARIMATA CI: 27.301.900
-
 
 A continuacion un conjunto de numeros desordenados para proceder
 a probar el metodo de "Mezcla Equilibrada Multiple"
