@@ -10,7 +10,7 @@ entonces, el tamaño de la tabla debe ser 1.000
 
 
 #include <iostream>
-#include <math.h>
+#include <cstdlib>
 using namespace std;
 
 const int m=1000;        //Tamaño de la tabla

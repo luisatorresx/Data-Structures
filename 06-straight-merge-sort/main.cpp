@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <vector>
 #include <string.h>
 using namespace std;
 
@@ -137,7 +138,7 @@ int mostrar(string s){
  	}
 	cout<<s;
 	int size=cantidadR(nomOrigen);
-	int reg[size];
+	vector<int> reg(size);
 
 	size-=1;
 	for(int i=0; i<size; i++){
@@ -153,7 +154,7 @@ int mostrar(string s){
 
 // muestra el archivo antes y despues
 int mostrar(string s, int size){
-    int reg[size];
+    vector<int> reg(size);
     
 	ifstream entrada(nomOrigen, ios::in );
 	if(!entrada){
@@ -180,7 +181,6 @@ int main(){
 	mostrar("Antes: ", cant);
 	mezclaDirecta(nomOrigen);
 	mostrar("Despues: ", cant);
-	cin.get();
 return 0;
 }
 

@@ -1,4 +1,4 @@
-
+#pragma once
 //CLASE NODO
 class Nodo {
 	public:

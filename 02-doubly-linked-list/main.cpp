@@ -36,7 +36,6 @@ int main()
 	
 	fLista.mostrar(ASCENDENTE);
 	fLista.mostrar(DESCENDENTE);
-	cin.get();
 	return 0;
 }
 

@@ -3,7 +3,7 @@ Transformación de notación infija a postfija
 */
 
 #include <iostream>
-#include <string.h>
+#include <string>
 #include "PilaT.h"
 using namespace std;
 

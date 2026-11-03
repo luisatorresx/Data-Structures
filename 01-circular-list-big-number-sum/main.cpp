@@ -9,7 +9,7 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <conio.h>
+#include <string>
 #include "ListaCircular.h"
 
 using namespace std;
@@ -115,12 +115,10 @@ int main()
 		size2=numero2.length();
 	}while(size1<30||size2<30||size1>50||size2>50);
 	cout<<"Fabuloso, el resultado de tu suma es: "<<endl; suma(numero1,numero2);
-	getch();
 	cout << "Ingrese 'S' si desea volver a intentar" << endl;
 	cin >>resp;
 	}while(resp=='S'||resp=='s');
 	cout <<"Feliz dia ;)";
-	getch();
 	return 0;
 }
 

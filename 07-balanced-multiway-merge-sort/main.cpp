@@ -8,6 +8,7 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
+#include <vector>
 using namespace std;
 
 	const int N = 6;   //Declaramos como constante la cantidad de archivos
@@ -236,7 +237,7 @@ int mostrar(string s, int size){
 
 	cout<<s;
 	
-	int reg[size];
+	vector<int> reg(size);
 	for(int i=0; i<size; i++){
 		entrada>>reg[i];
  	}
@@ -255,6 +256,5 @@ int main(){
 	mostrar("Antes: ", cant);
 	mezcla();
 	mostrar("Despues: ", cant);
-	cin.get();
 	return 0;
 }
