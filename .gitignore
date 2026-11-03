@@ -1,8 +1,17 @@
-# Compiled output (build from the .cpp sources)
+# Build output
+build/
 *.exe
 *.o
 *.obj
 a.out
+
+# Temporary files written by the external merge sorts
+f1
+f2
+f3
+f4
+f5
+f6
 
 # Editor / OS files
 .vscode/
