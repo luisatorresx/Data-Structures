@@ -39,7 +39,7 @@ g++ -std=c++17 -o infix 03-infix-to-postfix-stack/main.cpp
 
 ## Tests
 
-`make test` runs every program with sample input and checks the output, including edge cases such as carries that ripple through every digit, unbalanced parentheses and 10-digit palindromes. GitHub Actions runs the build and tests on Linux and macOS for every push.
+`make test` runs every program with sample input and checks the output. GitHub Actions runs the build and tests on Linux and macOS for every push.
 
 ## Concepts practiced
 

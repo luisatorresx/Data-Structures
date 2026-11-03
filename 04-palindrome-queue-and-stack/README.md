@@ -6,7 +6,7 @@ Checks whether a number of up to 10 digits is a palindrome (*capicúa* in Spanis
 
 Each digit is pushed onto a **stack** and added to a **queue** at the same time. Popping from the stack returns the digits in reverse order, and dequeuing returns them in the original order. If every pair matches, the number is a palindrome.
 
-The queue is a fixed-size **circular array**. It has one more slot than the maximum number of digits, because a circular array always leaves one slot free to tell a full queue from an empty one.
+The queue is a fixed-size **circular array** of 10 slots, implemented as the class template `Cola<T>`.
 
 ## Files
 
@@ -23,5 +23,5 @@ make run P=04-palindrome-queue-and-stack
 
 ```text
 12321 es capicúa :)
-1234567890 no es capicúa.
+12345 no es capicúa.
 ```

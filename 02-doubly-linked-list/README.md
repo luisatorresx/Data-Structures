@@ -7,7 +7,7 @@ A doubly linked list written as a class template, so it works with any type (`in
 | Method | Description |
 |---|---|
 | `insertar(e)` | Appends an element at the end |
-| `quitar(e)` | Removes the first node holding `e` and frees its memory |
+| `quitar(e)` | Unlinks the node holding `e` from the list |
 | `mostrar(ASCENDENTE \| DESCENDENTE)` | Prints the list forwards or backwards |
 | `primero()`, `ultimo()`, `siguiente()`, `anterior()` | Move the internal cursor |
 | `eActual()` | Returns the element under the cursor |

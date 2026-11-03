@@ -7,7 +7,7 @@ Adds two integers of 30 to 50 digits, far beyond what `int` or `long long` can h
 1. Both numbers are read as text. The shorter one is padded with leading zeros.
 2. Each digit is inserted into its own circular doubly linked list.
 3. A third list receives the digit-by-digit sums.
-4. Carries are propagated from the last (least significant) digit back to the first. If the first digit overflows, a new leading `1` node is inserted.
+4. The result list is then walked to apply carries: any digit of 10 or more keeps its last digit and passes a 1 to the digit before it.
 
 ## Files
 
@@ -23,4 +23,4 @@ Adds two integers of 30 to 50 digits, far beyond what `int` or `long long` can h
 make run P=01-circular-list-big-number-sum
 ```
 
-Example: `999999999999999999999999999999` + `000000000000000000000000000001` = `1000000000000000000000000000000`
+Example: `123456789012345678901234567890` + `987654321098765432109876543210` = `1111111110111111111011111111100`

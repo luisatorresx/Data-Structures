@@ -18,7 +18,7 @@ The expression is read left to right:
 | `*` `/` | Multiply, divide | 2 |
 | `+` `-` | Add, subtract | 1 |
 
-Invalid characters, expressions ending in an operator and unbalanced parentheses are reported to the user.
+Invalid characters and expressions ending in an operator are reported to the user.
 
 ## Files
 
