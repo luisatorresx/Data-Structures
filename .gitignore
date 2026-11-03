@@ -1,0 +1,10 @@
+# Compiled output (build from the .cpp sources)
+*.exe
+*.o
+*.obj
+a.out
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
